@@ -1,0 +1,91 @@
+{
+  "armazens": [
+    {
+      "id": 401,
+      "name": "Mega Armazém Atacadista",
+      "slug": "mega-armazem-atacadista",
+      "category": "armazens",
+      "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&q=80",
+      "logo": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=200&q=80",
+      "rating": 4.5,
+      "reviews": 89,
+      "deliveryTime": "1-2 dias",
+      "deliveryFee": 9.99,
+      "minOrder": 100,
+      "description": "Produtos por atacado para comércio e grandes quantidades",
+      "address": "Zona Industrial, Rua 1, Galpão 45",
+      "phone": "+258 84 567 2345",
+      "openHours": {
+        "monday": "06:00-18:00",
+        "tuesday": "06:00-18:00",
+        "wednesday": "06:00-18:00",
+        "thursday": "06:00-18:00",
+        "friday": "06:00-18:00",
+        "saturday": "06:00-14:00",
+        "sunday": "closed"
+      },
+      "services": ["Atacado", "Varejo", "Entrega em grandes volumes", "Preços especiais"],
+      "featured": true,
+      "verified": true,
+      "tags": ["atacado", "grandes volumes", "preços especiais", "empresas"]
+    },
+    {
+      "id": 402,
+      "name": "Distribuidora Central",
+      "slug": "distribuidora-central",
+      "category": "armazens",
+      "image": "https://images.unsplash.com/photo-1553413077-190dd305871c?w=800&q=80",
+      "logo": "https://images.unsplash.com/photo-1565982238447-5d91c6e10c7b?w=200&q=80",
+      "rating": 4.3,
+      "reviews": 67,
+      "deliveryTime": "2-3 dias",
+      "deliveryFee": 12.99,
+      "minOrder": 150,
+      "description": "Distribuição de alimentos e bebidas em grande escala",
+      "address": "Av. das Indústrias, 890 - Matola",
+      "phone": "+258 84 678 3456",
+      "openHours": {
+        "monday": "07:00-17:00",
+        "tuesday": "07:00-17:00",
+        "wednesday": "07:00-17:00",
+        "thursday": "07:00-17:00",
+        "friday": "07:00-17:00",
+        "saturday": "07:00-13:00",
+        "sunday": "closed"
+      },
+      "services": ["Alimentos", "Bebidas", "Produtos de limpeza", "Descarga"],
+      "featured": false,
+      "verified": true,
+      "tags": ["distribuidor", "alimentos", "bebidas", "matola"]
+    },
+    {
+      "id": 403,
+      "name": "Armazém do Construtor",
+      "slug": "armazem-construtor",
+      "category": "armazens",
+      "image": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&q=80",
+      "logo": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=200&q=80",
+      "rating": 4.6,
+      "reviews": 45,
+      "deliveryTime": "Mesmo dia",
+      "deliveryFee": 15.00,
+      "minOrder": 200,
+      "description": "Materiais de construção e ferramentas profissionais",
+      "address": "EN1, Km 15 - Marracuene",
+      "phone": "+258 84 789 4567",
+      "openHours": {
+        "monday": "07:00-18:00",
+        "tuesday": "07:00-18:00",
+        "wednesday": "07:00-18:00",
+        "thursday": "07:00-18:00",
+        "friday": "07:00-18:00",
+        "saturday": "07:00-16:00",
+        "sunday": "closed"
+      },
+      "services": ["Materiais de construção", "Ferramentas", "Aluguer de equipamentos", "Consultoria"],
+      "featured": false,
+      "verified": false,
+      "tags": ["construção", "ferramentas", "materiais", "profissional"]
+    }
+  ]
+}

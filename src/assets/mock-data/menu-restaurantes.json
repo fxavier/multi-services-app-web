@@ -1,0 +1,346 @@
+{
+  "menu": {
+    "restaurantId": 201,
+    "categories": [
+      {
+        "id": 1,
+        "name": "Entradas",
+        "items": [
+          {
+            "id": 101,
+            "name": "Rissóis de Camarão",
+            "description": "Deliciosos rissóis recheados com camarão fresco e temperos especiais",
+            "price": 350,
+            "image": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=800&q=80",
+            "popular": true,
+            "preparationTime": "15 min",
+            "calories": 280
+          },
+          {
+            "id": 102,
+            "name": "Samosas de Carne",
+            "description": "Pastéis triangulares crocantes com recheio de carne temperada",
+            "price": 280,
+            "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80",
+            "spicy": true,
+            "preparationTime": "10 min",
+            "calories": 320
+          },
+          {
+            "id": 103,
+            "name": "Salada Tropical",
+            "description": "Mix de folhas verdes com manga, abacaxi e molho de maracujá",
+            "price": 420,
+            "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
+            "vegetarian": true,
+            "vegan": true,
+            "calories": 180
+          },
+          {
+            "id": 104,
+            "name": "Chouriço Assado",
+            "description": "Chouriço português assado com pimentos e cebola",
+            "price": 320,
+            "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+            "preparationTime": "12 min",
+            "calories": 290
+          },
+          {
+            "id": 105,
+            "name": "Pastéis de Bacalhau",
+            "description": "Tradicionais pastéis de bacalhau crocantes",
+            "price": 380,
+            "image": "https://images.unsplash.com/photo-1551218808-94e220e084d2?w=800&q=80",
+            "preparationTime": "15 min",
+            "calories": 250,
+            "allergens": ["peixe", "ovos", "glúten"]
+          },
+          {
+            "id": 106,
+            "name": "Bruschetta de Tomate",
+            "description": "Pão tostado com tomate fresco, manjericão e azeite",
+            "price": 250,
+            "image": "https://images.unsplash.com/photo-1572441713132-51c75654db73?w=800&q=80",
+            "vegetarian": true,
+            "preparationTime": "8 min",
+            "calories": 200,
+            "allergens": ["glúten"]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Pratos Principais",
+        "items": [
+          {
+            "id": 201,
+            "name": "Camarão à Zambeziana",
+            "description": "Camarões grandes grelhados com molho piri-piri e acompanhamentos",
+            "price": 1450,
+            "image": "https://images.unsplash.com/photo-1565299585323-38174c4a6c55?w=800&q=80",
+            "popular": true,
+            "spicy": true,
+            "preparationTime": "25 min",
+            "calories": 420,
+            "allergens": ["crustáceos"]
+          },
+          {
+            "id": 202,
+            "name": "Frango Piri-Piri",
+            "description": "Frango grelhado marinado em molho piri-piri tradicional",
+            "price": 1280,
+            "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=800&q=80",
+            "popular": true,
+            "spicy": true,
+            "preparationTime": "30 min",
+            "calories": 580
+          },
+          {
+            "id": 203,
+            "name": "Matapa Tradicional",
+            "description": "Folhas de mandioca cozidas com camarão seco e amendoim",
+            "price": 980,
+            "image": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=800&q=80",
+            "preparationTime": "35 min",
+            "calories": 380,
+            "allergens": ["frutos secos", "crustáceos"]
+          },
+          {
+            "id": 204,
+            "name": "Linguiça de Inhambane",
+            "description": "Linguiça tradicional grelhada servida com xima e molho",
+            "price": 1180,
+            "image": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&q=80",
+            "preparationTime": "20 min",
+            "calories": 650
+          },
+          {
+            "id": 205,
+            "name": "Peixe Grelhado",
+            "description": "Peixe fresco do dia grelhado com legumes e arroz de coco",
+            "price": 1350,
+            "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&q=80",
+            "preparationTime": "25 min",
+            "calories": 450
+          },
+          {
+            "id": 206,
+            "name": "Cabrito Assado",
+            "description": "Cabrito jovem assado no forno com batatas e ervas aromáticas",
+            "price": 1580,
+            "image": "https://images.unsplash.com/photo-1594576662199-ae587afcf4c5?w=800&q=80",
+            "popular": true,
+            "preparationTime": "45 min",
+            "calories": 720
+          },
+          {
+            "id": 207,
+            "name": "Lagosta Grelhada",
+            "description": "Lagosta fresca grelhada com manteiga de alho e limão",
+            "price": 2250,
+            "image": "https://images.unsplash.com/photo-1559737558-2108c53dcabd?w=800&q=80",
+            "preparationTime": "20 min",
+            "calories": 380,
+            "allergens": ["crustáceos"]
+          },
+          {
+            "id": 208,
+            "name": "Galinha à Cafreal",
+            "description": "Galinha marinada com coentros, alho e especiarias indianas",
+            "price": 1320,
+            "image": "https://images.unsplash.com/photo-1604503468506-a8da13d82791?w=800&q=80",
+            "spicy": true,
+            "preparationTime": "40 min",
+            "calories": 620
+          },
+          {
+            "id": 209,
+            "name": "Curry de Cabrito",
+            "description": "Cabrito cozido em curry com leite de coco e especiarias",
+            "price": 1480,
+            "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
+            "spicy": true,
+            "preparationTime": "50 min",
+            "calories": 680
+          },
+          {
+            "id": 210,
+            "name": "Prato Vegetariano",
+            "description": "Mix de legumes grelhados com quinoa e molho tahine",
+            "price": 890,
+            "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
+            "vegetarian": true,
+            "vegan": true,
+            "preparationTime": "20 min",
+            "calories": 420,
+            "allergens": ["sésamo"]
+          },
+          {
+            "id": 211,
+            "name": "Bifana Especial",
+            "description": "Bife de porco em pão com molho especial da casa",
+            "price": 680,
+            "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
+            "preparationTime": "15 min",
+            "calories": 580,
+            "allergens": ["glúten"]
+          },
+          {
+            "id": 212,
+            "name": "Arroz de Marisco",
+            "description": "Arroz cremoso com vários mariscos frescos do Índico",
+            "price": 1680,
+            "image": "https://images.unsplash.com/photo-1563379091339-03246963d7d6?w=800&q=80",
+            "popular": true,
+            "preparationTime": "35 min",
+            "calories": 520,
+            "allergens": ["crustáceos", "moluscos"]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Bebidas",
+        "items": [
+          {
+            "id": 301,
+            "name": "Sumo de Baobá",
+            "description": "Sumo natural da polpa do baobá, rico em vitamina C",
+            "price": 180,
+            "image": "https://images.unsplash.com/photo-1546548970-71785318a17b?w=800&q=80",
+            "vegan": true,
+            "calories": 120
+          },
+          {
+            "id": 302,
+            "name": "Cerveja 2M",
+            "description": "Cerveja moçambicana gelada (330ml)",
+            "price": 150,
+            "image": "https://images.unsplash.com/photo-1608270586620-248524c67de9?w=800&q=80",
+            "calories": 145
+          },
+          {
+            "id": 303,
+            "name": "Água de Coco Natural",
+            "description": "Água de coco fresca servida direto do coco",
+            "price": 120,
+            "image": "https://images.unsplash.com/photo-1447069387593-a5de0862481e?w=800&q=80",
+            "vegan": true,
+            "calories": 45
+          },
+          {
+            "id": 304,
+            "name": "Vinho Português Tinto",
+            "description": "Seleção de vinhos tintos portugueses (taça)",
+            "price": 280,
+            "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=800&q=80",
+            "calories": 125
+          },
+          {
+            "id": 305,
+            "name": "Sumo de Cashew",
+            "description": "Sumo fresco da castanha de caju moçambicana",
+            "price": 200,
+            "image": "https://images.unsplash.com/photo-1613478223719-2ab802602423?w=800&q=80",
+            "vegan": true,
+            "calories": 180
+          },
+          {
+            "id": 306,
+            "name": "Caipirinha de Cajú",
+            "description": "Caipirinha feita com aguardente e cajú fresco",
+            "price": 320,
+            "image": "https://images.unsplash.com/photo-1551024601-bec78aea704b?w=800&q=80",
+            "calories": 220
+          },
+          {
+            "id": 307,
+            "name": "Chá de Capim Limão",
+            "description": "Chá aromático de ervas locais com propriedades relaxantes",
+            "price": 90,
+            "image": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=800&q=80",
+            "vegan": true,
+            "calories": 5
+          },
+          {
+            "id": 308,
+            "name": "Batido de Manga",
+            "description": "Batido cremoso de manga fresca com leite",
+            "price": 220,
+            "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433a?w=800&q=80",
+            "vegetarian": true,
+            "calories": 280,
+            "allergens": ["leite"]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Sobremesas",
+        "items": [
+          {
+            "id": 401,
+            "name": "Cocada Moçambicana",
+            "description": "Doce tradicional de coco com açúcar mascavo",
+            "price": 220,
+            "image": "https://images.unsplash.com/photo-1571115764595-644a1f56a55c?w=800&q=80",
+            "vegetarian": true,
+            "calories": 280,
+            "allergens": ["coco"]
+          },
+          {
+            "id": 402,
+            "name": "Pudim de Leite Condensado",
+            "description": "Pudim cremoso com calda de caramelo",
+            "price": 250,
+            "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=800&q=80",
+            "vegetarian": true,
+            "calories": 320,
+            "allergens": ["leite", "ovos"]
+          },
+          {
+            "id": 403,
+            "name": "Gelado de Castanha de Caju",
+            "description": "Gelado artesanal feito com castanha de caju moçambicana",
+            "price": 180,
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
+            "vegetarian": true,
+            "calories": 220,
+            "allergens": ["frutos secos", "leite"]
+          },
+          {
+            "id": 404,
+            "name": "Bolo de Mandioca",
+            "description": "Bolo tradicional de mandioca com coco ralado",
+            "price": 200,
+            "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
+            "vegetarian": true,
+            "popular": true,
+            "calories": 310,
+            "allergens": ["ovos", "leite", "coco"]
+          },
+          {
+            "id": 405,
+            "name": "Mousse de Maracujá",
+            "description": "Mousse leve e refrescante de maracujá da região",
+            "price": 240,
+            "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80",
+            "vegetarian": true,
+            "calories": 280,
+            "allergens": ["leite", "ovos"]
+          },
+          {
+            "id": 406,
+            "name": "Gelado de Baobá",
+            "description": "Gelado exótico feito com polpa de baobá",
+            "price": 260,
+            "image": "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?w=800&q=80",
+            "vegetarian": true,
+            "calories": 200,
+            "allergens": ["leite"]
+          }
+        ]
+      }
+    ]
+  }
+}

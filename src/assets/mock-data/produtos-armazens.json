@@ -1,0 +1,170 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Arroz Branco 25kg",
+      "description": "Arroz branco tipo 1 de primeira qualidade, ideal para atacado",
+      "price": 2500,
+      "originalPrice": 2800,
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=800&q=80",
+      "category": "alimentos",
+      "subcategory": "grãos",
+      "brand": "Tio João",
+      "inStock": true,
+      "discount": 11,
+      "rating": 4.5,
+      "reviews": 89,
+      "tags": ["atacado", "grão", "básico", "qualidade"],
+      "specifications": {
+        "Peso": "25kg",
+        "Tipo": "Tipo 1",
+        "Origem": "Nacional",
+        "Embalagem": "Saco"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Óleo de Soja 20L",
+      "description": "Óleo de soja refinado para uso culinário em grande quantidade",
+      "price": 1800,
+      "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=800&q=80",
+      "category": "alimentos",
+      "subcategory": "óleos",
+      "brand": "Liza",
+      "inStock": true,
+      "rating": 4.4,
+      "reviews": 67,
+      "tags": ["óleo", "culinário", "atacado", "20L"],
+      "specifications": {
+        "Volume": "20 litros",
+        "Tipo": "Refinado",
+        "Uso": "Culinário",
+        "Embalagem": "Bombona"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Açúcar Cristal 50kg",
+      "description": "Açúcar cristal especial para uso comercial e industrial",
+      "price": 4200,
+      "originalPrice": 4500,
+      "image": "https://images.unsplash.com/photo-1559181567-c3190ca9959b?w=800&q=80",
+      "category": "alimentos",
+      "subcategory": "doces",
+      "brand": "União",
+      "inStock": true,
+      "discount": 7,
+      "rating": 4.6,
+      "reviews": 134,
+      "tags": ["açúcar", "cristal", "comercial", "50kg"],
+      "specifications": {
+        "Peso": "50kg",
+        "Tipo": "Cristal",
+        "Uso": "Comercial/Industrial",
+        "Embalagem": "Saco"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Feijão Preto 30kg",
+      "description": "Feijão preto selecionado para comércio e restaurantes",
+      "price": 3600,
+      "image": "https://images.unsplash.com/photo-1556909045-f2a31a65503d?w=800&q=80",
+      "category": "alimentos",
+      "subcategory": "grãos",
+      "brand": "Camil",
+      "inStock": true,
+      "rating": 4.3,
+      "reviews": 76,
+      "tags": ["feijão", "preto", "selecionado", "restaurante"],
+      "specifications": {
+        "Peso": "30kg",
+        "Tipo": "Preto",
+        "Qualidade": "Selecionado",
+        "Embalagem": "Saco"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Farinha de Trigo 25kg",
+      "description": "Farinha de trigo especial para panificação e confeitaria",
+      "price": 2200,
+      "image": "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?w=800&q=80",
+      "category": "alimentos",
+      "subcategory": "farinhas",
+      "brand": "Renata",
+      "inStock": true,
+      "rating": 4.7,
+      "reviews": 156,
+      "tags": ["farinha", "trigo", "panificação", "especial"],
+      "specifications": {
+        "Peso": "25kg",
+        "Tipo": "Especial",
+        "Uso": "Panificação",
+        "Proteína": "11-13%"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Macarrão Espaguete 5kg",
+      "description": "Massa de espaguete para uso comercial em restaurantes",
+      "price": 850,
+      "image": "https://images.unsplash.com/photo-1551892374-ecf8845fbbba?w=800&q=80",
+      "category": "alimentos",
+      "subcategory": "massas",
+      "brand": "Barilla",
+      "inStock": false,
+      "rating": 4.8,
+      "reviews": 234,
+      "tags": ["massa", "espaguete", "comercial", "restaurante"],
+      "specifications": {
+        "Peso": "5kg",
+        "Formato": "Espaguete",
+        "Uso": "Comercial",
+        "Tempo de Cozimento": "8-10 min"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Detergente em Pó 10kg",
+      "description": "Detergente em pó para lavagem industrial e comercial",
+      "price": 1200,
+      "originalPrice": 1350,
+      "image": "https://images.unsplash.com/photo-1563453392212-326f5e854473?w=800&q=80",
+      "category": "limpeza",
+      "subcategory": "detergentes",
+      "brand": "Omo",
+      "inStock": true,
+      "discount": 11,
+      "rating": 4.2,
+      "reviews": 89,
+      "tags": ["detergente", "pó", "industrial", "limpeza"],
+      "specifications": {
+        "Peso": "10kg",
+        "Tipo": "Pó concentrado",
+        "Uso": "Industrial/Comercial",
+        "Rendimento": "200 lavagens"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Papel Higiênico Atacado",
+      "description": "Papel higiênico folha dupla - fardo com 64 rolos",
+      "price": 3200,
+      "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?w=800&q=80",
+      "category": "higiene",
+      "subcategory": "papel",
+      "brand": "Personal",
+      "inStock": true,
+      "rating": 4.1,
+      "reviews": 67,
+      "tags": ["papel higiênico", "atacado", "fardo", "comercial"],
+      "specifications": {
+        "Quantidade": "64 rolos",
+        "Folhas": "Dupla",
+        "Comprimento": "30m por rolo",
+        "Embalagem": "Fardo"
+      }
+    }
+  ]
+}

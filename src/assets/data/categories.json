@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Restaurantes",
+    "icon": "pi pi-utensils",
+    "emoji": "🍽️",
+    "description": "Descubra os melhores restaurantes da sua região",
+    "color": "bg-gradient-to-br from-orange-400 to-red-500",
+    "route": "/catalog/restaurants"
+  },
+  {
+    "id": 2,
+    "name": "Lojas",
+    "icon": "pi pi-shopping-bag",
+    "emoji": "🛍️",
+    "description": "Compre produtos de lojas locais",
+    "color": "bg-gradient-to-br from-pink-400 to-purple-500",
+    "route": "/catalog/shops"
+  },
+  {
+    "id": 3,
+    "name": "Farmácias",
+    "icon": "pi pi-heart",
+    "emoji": "💊",
+    "description": "Medicamentos entregues com segurança",
+    "color": "bg-gradient-to-br from-green-400 to-teal-500",
+    "route": "/catalog/pharmacies"
+  },
+  {
+    "id": 4,
+    "name": "Comidas ao Domicílio",
+    "icon": "pi pi-truck",
+    "emoji": "🍱",
+    "description": "Refeições prontas entregues rapidamente",
+    "color": "bg-gradient-to-br from-yellow-400 to-orange-500",
+    "route": "/catalog/food-delivery"
+  },
+  {
+    "id": 5,
+    "name": "Armazéns",
+    "icon": "pi pi-building",
+    "emoji": "🏢",
+    "description": "Compras por atacado com entrega",
+    "color": "bg-gradient-to-br from-blue-400 to-indigo-500",
+    "route": "/catalog/warehouses"
+  }
+]

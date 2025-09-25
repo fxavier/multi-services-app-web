@@ -1,0 +1,170 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Vinho Tinto Português - Douro",
+      "description": "Vinho tinto seco da região do Douro, Portugal",
+      "price": 1200,
+      "originalPrice": 1400,
+      "image": "https://images.unsplash.com/photo-1569336415962-a4bd9f69cd83?w=800&q=80",
+      "category": "vinhos",
+      "subcategory": "tintos",
+      "brand": "Quinta do Vale",
+      "inStock": true,
+      "discount": 14,
+      "rating": 4.7,
+      "reviews": 89,
+      "tags": ["vinho tinto", "português", "seco", "premium"],
+      "specifications": {
+        "Região": "Douro, Portugal",
+        "Teor Alcoólico": "13.5%",
+        "Volume": "750ml",
+        "Safra": "2020"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Cerveja 2M - Caixa 24 Unidades",
+      "description": "Cerveja moçambicana tradicional - caixa com 24 garrafas",
+      "price": 2400,
+      "image": "https://images.unsplash.com/photo-1608270586620-248524c67de9?w=800&q=80",
+      "category": "cervejas",
+      "subcategory": "nacionais",
+      "brand": "2M",
+      "inStock": true,
+      "rating": 4.5,
+      "reviews": 234,
+      "tags": ["cerveja", "moçambicana", "caixa", "tradicional"],
+      "specifications": {
+        "Quantidade": "24 garrafas",
+        "Volume": "330ml cada",
+        "Teor Alcoólico": "5.0%",
+        "Tipo": "Lager"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Whisky Johnnie Walker Red Label",
+      "description": "Whisky escocês misturado de qualidade superior",
+      "price": 4500,
+      "image": "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=800&q=80",
+      "category": "destilados",
+      "subcategory": "whisky",
+      "brand": "Johnnie Walker",
+      "inStock": true,
+      "rating": 4.8,
+      "reviews": 167,
+      "tags": ["whisky", "escocês", "premium", "johnnie walker"],
+      "specifications": {
+        "Origem": "Escócia",
+        "Teor Alcoólico": "40%",
+        "Volume": "1L",
+        "Tipo": "Blended Scotch"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Champagne Moët & Chandon",
+      "description": "Champagne francês brut de prestígio internacional",
+      "price": 8900,
+      "image": "https://images.unsplash.com/photo-1546069901-d5bfd2cbfb1f?w=800&q=80",
+      "category": "espumantes",
+      "subcategory": "champagne",
+      "brand": "Moët & Chandon",
+      "inStock": true,
+      "rating": 4.9,
+      "reviews": 78,
+      "tags": ["champagne", "francês", "brut", "luxo"],
+      "specifications": {
+        "Origem": "Champagne, França",
+        "Teor Alcoólico": "12%",
+        "Volume": "750ml",
+        "Tipo": "Brut"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Vodka Absolut Original",
+      "description": "Vodka sueca premium destilada continuamente",
+      "price": 3200,
+      "originalPrice": 3600,
+      "image": "https://images.unsplash.com/photo-1571613316887-6f8d5cbf7ef7?w=800&q=80",
+      "category": "destilados",
+      "subcategory": "vodka",
+      "brand": "Absolut",
+      "inStock": true,
+      "discount": 11,
+      "rating": 4.6,
+      "reviews": 145,
+      "tags": ["vodka", "sueca", "premium", "original"],
+      "specifications": {
+        "Origem": "Suécia",
+        "Teor Alcoólico": "40%",
+        "Volume": "1L",
+        "Destilação": "Contínua"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Vinho Branco Português - Vinho Verde",
+      "description": "Vinho branco ligeiramente espumante de Portugal",
+      "price": 950,
+      "image": "https://images.unsplash.com/photo-1474722883778-792e7990302f?w=800&q=80",
+      "category": "vinhos",
+      "subcategory": "brancos",
+      "brand": "Casal Garcia",
+      "inStock": true,
+      "rating": 4.4,
+      "reviews": 123,
+      "tags": ["vinho branco", "vinho verde", "espumante", "refrescante"],
+      "specifications": {
+        "Região": "Minho, Portugal",
+        "Teor Alcoólico": "9.5%",
+        "Volume": "750ml",
+        "Tipo": "Ligeiramente espumante"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Gin Bombay Sapphire",
+      "description": "Gin premium inglês com 10 botânicos",
+      "price": 3800,
+      "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=800&q=80",
+      "category": "destilados",
+      "subcategory": "gin",
+      "brand": "Bombay Sapphire",
+      "inStock": false,
+      "rating": 4.7,
+      "reviews": 98,
+      "tags": ["gin", "premium", "botânicos", "inglês"],
+      "specifications": {
+        "Origem": "Inglaterra",
+        "Teor Alcoólico": "40%",
+        "Volume": "750ml",
+        "Botânicos": "10 especiarias"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Cerveja Heineken - Caixa 12 Unidades",
+      "description": "Cerveja holandesa premium internacional",
+      "price": 1800,
+      "originalPrice": 2000,
+      "image": "https://images.unsplash.com/photo-1535958636474-b021ee887b13?w=800&q=80",
+      "category": "cervejas",
+      "subcategory": "importadas",
+      "brand": "Heineken",
+      "inStock": true,
+      "discount": 10,
+      "rating": 4.6,
+      "reviews": 189,
+      "tags": ["cerveja", "holandesa", "premium", "internacional"],
+      "specifications": {
+        "Quantidade": "12 garrafas",
+        "Volume": "330ml cada",
+        "Teor Alcoólico": "5.0%",
+        "Origem": "Holanda"
+      }
+    }
+  ]
+}

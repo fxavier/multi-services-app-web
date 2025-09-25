@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "categoryId": 1,
+    "name": "Pizzaria Bella Italia",
+    "description": "Pizzas autênticas italianas feitas no forno a lenha",
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400&h=300&fit=crop",
+    "rating": 4.8,
+    "deliveryTime": "30-45 min",
+    "deliveryFee": 2.50,
+    "minOrder": 15.00
+  },
+  {
+    "id": 2,
+    "categoryId": 1,
+    "name": "Sushi Master",
+    "description": "Sushi fresco e pratos japoneses tradicionais",
+    "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=400&h=300&fit=crop",
+    "rating": 4.9,
+    "deliveryTime": "40-55 min",
+    "deliveryFee": 3.00,
+    "minOrder": 20.00
+  },
+  {
+    "id": 3,
+    "categoryId": 2,
+    "name": "Tech Store",
+    "description": "Eletrônicos, acessórios e gadgets",
+    "image": "https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=400&h=300&fit=crop",
+    "rating": 4.7,
+    "deliveryTime": "2-3 dias",
+    "deliveryFee": 5.00,
+    "minOrder": 50.00
+  },
+  {
+    "id": 4,
+    "categoryId": 2,
+    "name": "Fashion Boutique",
+    "description": "Moda feminina e masculina de alta qualidade",
+    "image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=400&h=300&fit=crop",
+    "rating": 4.6,
+    "deliveryTime": "1-2 dias",
+    "deliveryFee": 4.00,
+    "minOrder": 30.00
+  },
+  {
+    "id": 5,
+    "categoryId": 3,
+    "name": "Farmácia Central",
+    "description": "Medicamentos, produtos de higiene e bem-estar",
+    "image": "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=400&h=300&fit=crop",
+    "rating": 4.9,
+    "deliveryTime": "1-2 horas",
+    "deliveryFee": 2.00,
+    "minOrder": 10.00
+  },
+  {
+    "id": 6,
+    "categoryId": 4,
+    "name": "Marmitas da Vovó",
+    "description": "Comida caseira deliciosa todos os dias",
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=400&h=300&fit=crop",
+    "rating": 4.8,
+    "deliveryTime": "20-30 min",
+    "deliveryFee": 1.50,
+    "minOrder": 12.00
+  },
+  {
+    "id": 7,
+    "categoryId": 5,
+    "name": "Atacado Express",
+    "description": "Produtos em grande quantidade com preços especiais",
+    "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=400&h=300&fit=crop",
+    "rating": 4.5,
+    "deliveryTime": "3-5 dias",
+    "deliveryFee": 10.00,
+    "minOrder": 100.00
+  }
+]

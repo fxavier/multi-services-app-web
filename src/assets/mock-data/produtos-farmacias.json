@@ -1,0 +1,414 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Paracetamol 500mg",
+      "description": "Analgésico e antipirético para dor e febre",
+      "price": 85,
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=80",
+      "category": "medicamentos",
+      "subcategory": "analgésicos",
+      "brand": "Genérico",
+      "inStock": true,
+      "rating": 4.5,
+      "reviews": 234,
+      "tags": ["dor", "febre", "genérico", "venda livre"],
+      "specifications": {
+        "Dosagem": "500mg",
+        "Embalagem": "20 comprimidos",
+        "Uso": "Oral",
+        "Prescrição": "Não necessária"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Amoxicilina 500mg",
+      "description": "Antibiótico para infecções bacterianas",
+      "price": 180,
+      "image": "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=800&q=80",
+      "category": "medicamentos",
+      "subcategory": "antibióticos",
+      "brand": "EMS",
+      "inStock": true,
+      "rating": 4.7,
+      "reviews": 156,
+      "tags": ["antibiótico", "infecção", "receita médica"],
+      "specifications": {
+        "Dosagem": "500mg",
+        "Embalagem": "21 cápsulas",
+        "Uso": "Oral",
+        "Prescrição": "Necessária"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Vitamina C 1000mg",
+      "description": "Suplemento vitamínico para imunidade",
+      "price": 120,
+      "originalPrice": 150,
+      "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&q=80",
+      "category": "suplementos",
+      "subcategory": "vitaminas",
+      "brand": "Nature's Bounty",
+      "inStock": true,
+      "discount": 20,
+      "rating": 4.6,
+      "reviews": 398,
+      "tags": ["vitamina", "imunidade", "antioxidante"],
+      "specifications": {
+        "Dosagem": "1000mg",
+        "Embalagem": "60 comprimidos",
+        "Uso": "Oral",
+        "Prescrição": "Não necessária"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Protetor Solar FPS 60",
+      "description": "Proteção solar de amplo espectro",
+      "price": 280,
+      "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80",
+      "category": "cosméticos",
+      "subcategory": "proteção solar",
+      "brand": "Eucerin",
+      "inStock": true,
+      "rating": 4.8,
+      "reviews": 267,
+      "tags": ["protetor solar", "FPS 60", "pele"],
+      "specifications": {
+        "FPS": "60",
+        "Volume": "120ml",
+        "Tipo": "Loção",
+        "Pele": "Todos os tipos"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Soro Fisiológico 0,9%",
+      "description": "Solução salina para lavagem nasal e ferimentos",
+      "price": 45,
+      "image": "https://images.unsplash.com/photo-1576602976047-174e57a47881?w=800&q=80",
+      "category": "primeiros socorros",
+      "subcategory": "soluções",
+      "brand": "Darrow",
+      "inStock": true,
+      "rating": 4.4,
+      "reviews": 189,
+      "tags": ["soro", "lavagem", "ferimentos"],
+      "specifications": {
+        "Concentração": "0,9%",
+        "Volume": "500ml",
+        "Uso": "Externo/Nasal",
+        "Prescrição": "Não necessária"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Omeprazol 20mg",
+      "description": "Protetor gástrico para acidez e úlceras",
+      "price": 95,
+      "image": "https://images.unsplash.com/photo-1585435557343-3b092031a831?w=800&q=80",
+      "category": "medicamentos",
+      "subcategory": "gastroenterologia",
+      "brand": "Medley",
+      "inStock": true,
+      "rating": 4.5,
+      "reviews": 445,
+      "tags": ["estômago", "acidez", "úlcera"],
+      "specifications": {
+        "Dosagem": "20mg",
+        "Embalagem": "28 cápsulas",
+        "Uso": "Oral",
+        "Prescrição": "Não necessária"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Termômetro Digital",
+      "description": "Termômetro digital rápido e preciso",
+      "price": 350,
+      "image": "https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=800&q=80",
+      "category": "equipamentos",
+      "subcategory": "medição",
+      "brand": "Incoterm",
+      "inStock": true,
+      "rating": 4.7,
+      "reviews": 123,
+      "tags": ["termômetro", "digital", "febre"],
+      "specifications": {
+        "Tipo": "Digital",
+        "Precisão": "±0.1°C",
+        "Tempo": "60 segundos",
+        "Memória": "Última leitura"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Álcool em Gel 70%",
+      "description": "Antisséptico para higienização das mãos",
+      "price": 75,
+      "originalPrice": 90,
+      "image": "https://images.unsplash.com/photo-1584634915855-6dfd2ed50b5e?w=800&q=80",
+      "category": "higiene",
+      "subcategory": "antissépticos",
+      "brand": "Saneantes",
+      "inStock": true,
+      "discount": 17,
+      "rating": 4.3,
+      "reviews": 678,
+      "tags": ["álcool gel", "higiene", "antisséptico"],
+      "specifications": {
+        "Concentração": "70%",
+        "Volume": "500ml",
+        "Tipo": "Gel",
+        "Uso": "Externo"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Ibuprofeno 600mg",
+      "description": "Anti-inflamatório e analgésico para dores intensas",
+      "price": 120,
+      "image": "https://images.unsplash.com/photo-1576591994406-4efb5e20ff89?w=800&q=80",
+      "category": "medicamentos",
+      "subcategory": "anti-inflamatórios",
+      "brand": "Advil",
+      "inStock": true,
+      "rating": 4.6,
+      "reviews": 567,
+      "tags": ["anti-inflamatório", "dor", "receita médica"],
+      "specifications": {
+        "Dosagem": "600mg",
+        "Embalagem": "30 comprimidos",
+        "Uso": "Oral",
+        "Prescrição": "Necessária"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Dipirona 500mg",
+      "description": "Analgésico e antitérmico de ação rápida",
+      "price": 65,
+      "image": "https://images.unsplash.com/photo-1550572017-edd951aa8462?w=800&q=80",
+      "category": "medicamentos",
+      "subcategory": "analgésicos",
+      "brand": "Novalgina",
+      "inStock": true,
+      "rating": 4.4,
+      "reviews": 334,
+      "tags": ["analgésico", "febre", "ação rápida"],
+      "specifications": {
+        "Dosagem": "500mg",
+        "Embalagem": "20 comprimidos",
+        "Uso": "Oral",
+        "Prescrição": "Não necessária"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Losartana 50mg",
+      "description": "Medicamento para hipertensão arterial",
+      "price": 95,
+      "image": "https://images.unsplash.com/photo-1571613316887-6f8d5cbf7ef7?w=800&q=80",
+      "category": "medicamentos",
+      "subcategory": "cardiologia",
+      "brand": "Genérico",
+      "inStock": true,
+      "rating": 4.5,
+      "reviews": 289,
+      "tags": ["hipertensão", "pressão alta", "receita médica"],
+      "specifications": {
+        "Dosagem": "50mg",
+        "Embalagem": "30 comprimidos",
+        "Uso": "Oral",
+        "Prescrição": "Necessária"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Metformina 850mg",
+      "description": "Medicamento para diabetes tipo 2",
+      "price": 85,
+      "originalPrice": 110,
+      "image": "https://images.unsplash.com/photo-1559181567-c3190ca9959b?w=800&q=80",
+      "category": "medicamentos",
+      "subcategory": "endocrinologia",
+      "brand": "Glifage",
+      "inStock": true,
+      "discount": 23,
+      "rating": 4.6,
+      "reviews": 445,
+      "tags": ["diabetes", "glicose", "receita médica"],
+      "specifications": {
+        "Dosagem": "850mg",
+        "Embalagem": "60 comprimidos",
+        "Uso": "Oral",
+        "Prescrição": "Necessária"
+      }
+    },
+    {
+      "id": 13,
+      "name": "Simvastatina 20mg",
+      "description": "Medicamento para controle do colesterol",
+      "price": 75,
+      "image": "https://images.unsplash.com/photo-1584467735871-8725f8659cb8?w=800&q=80",
+      "category": "medicamentos",
+      "subcategory": "cardiologia",
+      "brand": "Zocor",
+      "inStock": true,
+      "rating": 4.3,
+      "reviews": 178,
+      "tags": ["colesterol", "triglicérides", "receita médica"],
+      "specifications": {
+        "Dosagem": "20mg",
+        "Embalagem": "30 comprimidos",
+        "Uso": "Oral",
+        "Prescrição": "Necessária"
+      }
+    },
+    {
+      "id": 14,
+      "name": "Vitamina D3 2000UI",
+      "description": "Suplemento de vitamina D para ossos e imunidade",
+      "price": 150,
+      "originalPrice": 180,
+      "image": "https://images.unsplash.com/photo-1556909045-4d4c10d4f0cc?w=800&q=80",
+      "category": "suplementos",
+      "subcategory": "vitaminas",
+      "brand": "Addera",
+      "inStock": true,
+      "discount": 17,
+      "rating": 4.7,
+      "reviews": 678,
+      "tags": ["vitamina D", "ossos", "imunidade"],
+      "specifications": {
+        "Dosagem": "2000UI",
+        "Embalagem": "60 cápsulas",
+        "Uso": "Oral",
+        "Prescrição": "Não necessária"
+      }
+    },
+    {
+      "id": 15,
+      "name": "Salbutamol Spray 100mcg",
+      "description": "Broncodilatador para asma e bronquite",
+      "price": 180,
+      "image": "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=800&q=80",
+      "category": "medicamentos",
+      "subcategory": "pneumologia",
+      "brand": "Aerolin",
+      "inStock": true,
+      "rating": 4.8,
+      "reviews": 234,
+      "tags": ["asma", "bronquite", "inalação"],
+      "specifications": {
+        "Dosagem": "100mcg/dose",
+        "Embalagem": "200 doses",
+        "Uso": "Inalatório",
+        "Prescrição": "Necessária"
+      }
+    },
+    {
+      "id": 16,
+      "name": "Magnésio Dimalato 500mg",
+      "description": "Suplemento mineral para músculos e energia",
+      "price": 125,
+      "image": "https://images.unsplash.com/photo-1550572017-edd951aa8462?w=800&q=80",
+      "category": "suplementos",
+      "subcategory": "minerais",
+      "brand": "Nature Center",
+      "inStock": true,
+      "rating": 4.5,
+      "reviews": 345,
+      "tags": ["magnésio", "músculos", "energia"],
+      "specifications": {
+        "Dosagem": "500mg",
+        "Embalagem": "60 cápsulas",
+        "Uso": "Oral",
+        "Prescrição": "Não necessária"
+      }
+    },
+    {
+      "id": 17,
+      "name": "Hidrocortisona Pomada 1%",
+      "description": "Anti-inflamatório tópico para pele irritada",
+      "price": 95,
+      "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80",
+      "category": "medicamentos",
+      "subcategory": "dermatologia",
+      "brand": "Berlison",
+      "inStock": true,
+      "rating": 4.4,
+      "reviews": 156,
+      "tags": ["pomada", "irritação", "pele"],
+      "specifications": {
+        "Concentração": "1%",
+        "Volume": "30g",
+        "Uso": "Tópico",
+        "Prescrição": "Não necessária"
+      }
+    },
+    {
+      "id": 18,
+      "name": "Estomazil 40mg",
+      "description": "Protetor gástrico de ação prolongada",
+      "price": 135,
+      "originalPrice": 160,
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=80",
+      "category": "medicamentos",
+      "subcategory": "gastroenterologia",
+      "brand": "Nexium",
+      "inStock": true,
+      "discount": 16,
+      "rating": 4.6,
+      "reviews": 389,
+      "tags": ["estômago", "refluxo", "azia"],
+      "specifications": {
+        "Dosagem": "40mg",
+        "Embalagem": "28 comprimidos",
+        "Uso": "Oral",
+        "Prescrição": "Não necessária"
+      }
+    },
+    {
+      "id": 19,
+      "name": "Cálcio + Vitamina D 600mg",
+      "description": "Suplemento para fortalecimento dos ossos",
+      "price": 110,
+      "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&q=80",
+      "category": "suplementos",
+      "subcategory": "minerais",
+      "brand": "Caltrate",
+      "inStock": false,
+      "rating": 4.5,
+      "reviews": 267,
+      "tags": ["cálcio", "ossos", "vitamina D"],
+      "specifications": {
+        "Dosagem": "600mg + 400UI",
+        "Embalagem": "60 comprimidos",
+        "Uso": "Oral",
+        "Prescrição": "Não necessária"
+      }
+    },
+    {
+      "id": 20,
+      "name": "Azitromicina 500mg",
+      "description": "Antibiótico de amplo espectro",
+      "price": 220,
+      "image": "https://images.unsplash.com/photo-1576602976047-174e57a47881?w=800&q=80",
+      "category": "medicamentos",
+      "subcategory": "antibióticos",
+      "brand": "Zitromax",
+      "inStock": true,
+      "rating": 4.7,
+      "reviews": 445,
+      "tags": ["antibiótico", "infecção", "amplo espectro"],
+      "specifications": {
+        "Dosagem": "500mg",
+        "Embalagem": "5 comprimidos",
+        "Uso": "Oral",
+        "Prescrição": "Necessária"
+      }
+    }
+  ]
+}

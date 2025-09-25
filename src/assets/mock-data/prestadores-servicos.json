@@ -1,0 +1,181 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "name": "João Silva - Eletricista Certificado",
+      "description": "Eletricista com 15 anos de experiência em instalações residenciais e comerciais",
+      "category": "prestacao-servicos",
+      "subcategory": "eletricistas",
+      "avatar": "https://images.unsplash.com/photo-1582896911227-35e204ad6b3a?w=200&q=80",
+      "rating": 4.9,
+      "reviews": 234,
+      "hourlyRate": 200,
+      "location": "Maputo, Matola",
+      "phone": "+258 84 123 4567",
+      "experience": "15 anos",
+      "services": ["Instalações elétricas", "Manutenção", "Emergências 24h", "Projetos elétricos", "Automação residencial"],
+      "verified": true,
+      "responseTime": "Responde em 30 minutos",
+      "availability": ["Segunda a Sexta: 7h-18h", "Sábado: 8h-14h", "Emergências: 24h"],
+      "portfolio": [
+        "https://images.unsplash.com/photo-1621905251918-48416bd8575a?w=800&q=80",
+        "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&q=80"
+      ],
+      "certificates": ["Certificado INAE", "Curso de Segurança Elétrica", "NR-10"]
+    },
+    {
+      "id": 2,
+      "name": "Maria Santos - Trabalhos Domésticos",
+      "description": "Especialista em limpeza doméstica e organização de lares",
+      "category": "prestacao-servicos",
+      "subcategory": "trabalhos-domesticos",
+      "avatar": "https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=200&q=80",
+      "rating": 4.8,
+      "reviews": 198,
+      "hourlyRate": 150,
+      "location": "Grande Maputo",
+      "phone": "+258 84 234 5678",
+      "experience": "8 anos",
+      "services": ["Limpeza geral", "Limpeza profunda", "Organização", "Lavanderia", "Passadoria"],
+      "verified": true,
+      "responseTime": "Responde em 1 hora",
+      "availability": ["Segunda a Sábado: 6h-16h"],
+      "portfolio": [
+        "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80",
+        "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=800&q=80"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Carlos Mecânica - Oficina Móvel",
+      "description": "Serviços mecânicos com atendimento domiciliar",
+      "category": "prestacao-servicos",
+      "subcategory": "mecanicos",
+      "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200&q=80",
+      "rating": 4.7,
+      "reviews": 167,
+      "hourlyRate": 250,
+      "location": "Maputo - Atendimento móvel",
+      "phone": "+258 84 345 6789",
+      "experience": "12 anos",
+      "services": ["Manutenção preventiva", "Troca de óleo", "Sistema de freios", "Suspensão", "Diagnóstico eletrônico"],
+      "verified": true,
+      "responseTime": "Responde em 2 horas",
+      "availability": ["Segunda a Sábado: 7h-17h", "Emergências: Sob consulta"],
+      "portfolio": [
+        "https://images.unsplash.com/photo-1625047509168-a7026f36de04?w=800&q=80",
+        "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&q=80"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Paulo Auto Elétrica",
+      "description": "Especialista em sistemas elétricos automotivos",
+      "category": "prestacao-servicos",
+      "subcategory": "eletricistas-auto",
+      "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=200&q=80",
+      "rating": 4.6,
+      "reviews": 123,
+      "hourlyRate": 180,
+      "location": "Maputo, Matola",
+      "phone": "+258 84 456 7890",
+      "experience": "10 anos",
+      "services": ["Bateria e alternador", "Sistema de ignição", "Ar condicionado automotivo", "Som automotivo", "Alarmes"],
+      "verified": false,
+      "responseTime": "Responde em 3 horas",
+      "availability": ["Segunda a Sexta: 7h-17h", "Sábado: 7h-13h"],
+      "portfolio": [
+        "https://images.unsplash.com/photo-1530062845289-9109b2c9c868?w=800&q=80"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "António Canalizações 24h",
+      "description": "Serviços de canalização e desentupimento 24 horas",
+      "category": "prestacao-servicos",
+      "subcategory": "canalizadores",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80",
+      "rating": 4.8,
+      "reviews": 189,
+      "hourlyRate": 170,
+      "location": "Grande Maputo",
+      "phone": "+258 84 567 8901",
+      "experience": "9 anos",
+      "services": ["Desentupimentos", "Reparação de vazamentos", "Instalação de tubagens", "Emergências 24h"],
+      "verified": true,
+      "responseTime": "Responde em 15 minutos",
+      "availability": ["24 horas por dia", "7 dias por semana"],
+      "portfolio": [
+        "https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?w=800&q=80"
+      ],
+      "certificates": ["Certificado Profissional de Canalizador"]
+    },
+    {
+      "id": 6,
+      "name": "Miguel Pinturas",
+      "description": "Pintor profissional para residências e comércios",
+      "category": "prestacao-servicos",
+      "subcategory": "pintores",
+      "avatar": "https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=200&q=80",
+      "rating": 4.5,
+      "reviews": 145,
+      "fixedPrice": 0,
+      "location": "Maputo",
+      "phone": "+258 84 678 9012",
+      "experience": "7 anos",
+      "services": ["Pintura interior", "Pintura exterior", "Texturas decorativas", "Impermeabilização"],
+      "verified": true,
+      "responseTime": "Responde em 4 horas",
+      "availability": ["Segunda a Sábado: 7h-17h"],
+      "portfolio": [
+        "https://images.unsplash.com/photo-1562113774-84bf44e92e66?w=800&q=80",
+        "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=800&q=80"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "José Construções",
+      "description": "Pedreiro experiente para obras e reformas",
+      "category": "prestacao-servicos",
+      "subcategory": "pedreiros",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&q=80",
+      "rating": 4.7,
+      "reviews": 178,
+      "hourlyRate": 200,
+      "location": "Maputo, Matola, Marracuene",
+      "phone": "+258 84 789 0123",
+      "experience": "18 anos",
+      "services": ["Alvenaria", "Reboco", "Assentamento de pisos", "Muros e cercas", "Pequenas reformas"],
+      "verified": true,
+      "responseTime": "Responde em 3 horas",
+      "availability": ["Segunda a Sábado: 6h-16h"],
+      "portfolio": [
+        "https://images.unsplash.com/photo-1574169411236-be48f751eb90?w=800&q=80",
+        "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=800&q=80"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Pet Care Maputo - Ana Costa",
+      "description": "Cuidadora profissional de animais de estimação",
+      "category": "prestacao-servicos",
+      "subcategory": "cuidadores-animais",
+      "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&q=80",
+      "rating": 4.9,
+      "reviews": 234,
+      "hourlyRate": 100,
+      "location": "Polana, Sommerschield, Costa do Sol",
+      "phone": "+258 84 890 1234",
+      "experience": "6 anos",
+      "services": ["Passeio com cães", "Pet sitting", "Banho e tosa", "Transporte para veterinário", "Hospedagem"],
+      "verified": true,
+      "responseTime": "Responde em 30 minutos",
+      "availability": ["Todos os dias: 6h-20h", "Hospedagem: 24h"],
+      "portfolio": [
+        "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=800&q=80",
+        "https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=800&q=80"
+      ],
+      "certificates": ["Curso de Primeiros Socorros Veterinários", "Certificado em Comportamento Animal"]
+    }
+  ]
+}

@@ -1,0 +1,425 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "iPhone 15 Pro Max",
+      "description": "O mais avançado smartphone da Apple com câmera profissional",
+      "price": 89999,
+      "originalPrice": 94999,
+      "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800&q=80",
+      "category": "eletrônicos",
+      "subcategory": "smartphones",
+      "brand": "Apple",
+      "inStock": true,
+      "discount": 5,
+      "rating": 4.9,
+      "reviews": 1234,
+      "tags": ["premium", "câmera profissional", "5G"],
+      "specifications": {
+        "Tela": "6.7 polegadas",
+        "Armazenamento": "256GB",
+        "RAM": "8GB",
+        "Câmera": "48MP tripla"
+      }
+    },
+    {
+      "id": 2,
+      "name": "MacBook Air M2",
+      "description": "Laptop ultrafino com chip M2 da Apple",
+      "price": 67999,
+      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&q=80",
+      "category": "eletrônicos",
+      "subcategory": "laptops",
+      "brand": "Apple",
+      "inStock": true,
+      "rating": 4.8,
+      "reviews": 892,
+      "tags": ["ultrafino", "longa duração", "M2"],
+      "specifications": {
+        "Processador": "Apple M2",
+        "Memória": "8GB",
+        "Armazenamento": "256GB SSD",
+        "Tela": "13.6 polegadas"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Nike Air Max 270",
+      "description": "Tênis esportivo com tecnologia Air Max",
+      "price": 1299,
+      "originalPrice": 1599,
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800&q=80",
+      "category": "moda",
+      "subcategory": "calçados",
+      "brand": "Nike",
+      "inStock": true,
+      "discount": 19,
+      "rating": 4.6,
+      "reviews": 567,
+      "tags": ["esportivo", "confortável", "casual"],
+      "specifications": {
+        "Material": "Mesh + Couro sintético",
+        "Tecnologia": "Air Max",
+        "Indicado para": "Corrida e uso casual"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Samsung 4K Smart TV 55\"",
+      "description": "Smart TV 4K com tecnologia QLED",
+      "price": 45999,
+      "originalPrice": 52999,
+      "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=800&q=80",
+      "category": "eletrônicos",
+      "subcategory": "televisores",
+      "brand": "Samsung",
+      "inStock": true,
+      "discount": 13,
+      "rating": 4.7,
+      "reviews": 334,
+      "tags": ["4K", "smart TV", "QLED"],
+      "specifications": {
+        "Resolução": "3840 x 2160 (4K)",
+        "Tecnologia": "QLED",
+        "Sistema": "Tizen OS",
+        "Conectividade": "Wi-Fi, Bluetooth, HDMI"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Adidas Ultraboost 22",
+      "description": "Tênis de corrida com tecnologia Boost",
+      "price": 1899,
+      "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=800&q=80",
+      "category": "moda",
+      "subcategory": "calçados",
+      "brand": "Adidas",
+      "inStock": true,
+      "rating": 4.5,
+      "reviews": 289,
+      "tags": ["corrida", "performance", "boost"],
+      "specifications": {
+        "Tecnologia": "Boost midsole",
+        "Upper": "Primeknit",
+        "Indicado para": "Corrida de longa distância"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Canon EOS R6",
+      "description": "Câmera mirrorless profissional",
+      "price": 189999,
+      "image": "https://images.unsplash.com/photo-1606983340126-99ab4feaa64a?w=800&q=80",
+      "category": "eletrônicos",
+      "subcategory": "câmeras",
+      "brand": "Canon",
+      "inStock": false,
+      "rating": 4.9,
+      "reviews": 156,
+      "tags": ["profissional", "mirrorless", "full frame"],
+      "specifications": {
+        "Sensor": "Full Frame 20.1MP",
+        "ISO": "100-102400",
+        "Vídeo": "4K até 60fps",
+        "Estabilização": "In-body IS"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Levi's 501 Original",
+      "description": "Calça jeans clássica original da Levi's",
+      "price": 899,
+      "originalPrice": 1199,
+      "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=800&q=80",
+      "category": "moda",
+      "subcategory": "roupas",
+      "brand": "Levi's",
+      "inStock": true,
+      "discount": 25,
+      "rating": 4.4,
+      "reviews": 723,
+      "tags": ["clássico", "durável", "original"],
+      "specifications": {
+        "Material": "100% algodão denim",
+        "Corte": "Regular fit",
+        "Lavagem": "Stonewashed"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Sony WH-1000XM4",
+      "description": "Fones de ouvido wireless com cancelamento de ruído",
+      "price": 2799,
+      "originalPrice": 3299,
+      "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=800&q=80",
+      "category": "eletrônicos",
+      "subcategory": "áudio",
+      "brand": "Sony",
+      "inStock": true,
+      "discount": 15,
+      "rating": 4.8,
+      "reviews": 891,
+      "tags": ["wireless", "noise cancelling", "premium"],
+      "specifications": {
+        "Tecnologia": "Bluetooth 5.0",
+        "Bateria": "30 horas",
+        "Cancelamento": "Ativo de ruído",
+        "Driver": "40mm"
+      }
+    },
+    {
+      "id": 9,
+      "name": "PlayStation 5",
+      "description": "Console de última geração da Sony com SSD ultra-rápido",
+      "price": 42999,
+      "originalPrice": 45999,
+      "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=800&q=80",
+      "category": "eletrônicos",
+      "subcategory": "consoles",
+      "brand": "Sony",
+      "inStock": false,
+      "discount": 7,
+      "rating": 4.9,
+      "reviews": 2345,
+      "tags": ["gaming", "4K", "ray tracing", "SSD"],
+      "specifications": {
+        "Processador": "AMD Zen 2",
+        "GPU": "AMD RDNA 2",
+        "Armazenamento": "825GB SSD",
+        "Resolução": "Até 8K"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Apple Watch Series 9",
+      "description": "Smartwatch com GPS e monitoramento de saúde avançado",
+      "price": 3499,
+      "image": "https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?w=800&q=80",
+      "category": "eletrônicos",
+      "subcategory": "wearables",
+      "brand": "Apple",
+      "inStock": true,
+      "rating": 4.7,
+      "reviews": 1567,
+      "tags": ["smartwatch", "GPS", "saúde", "fitness"],
+      "specifications": {
+        "Tela": "Retina Always-On",
+        "Resistência": "Água até 50m",
+        "Bateria": "18 horas",
+        "Sensores": "ECG, SpO2, Temperatura"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Geladeira Brastemp Inverse",
+      "description": "Geladeira duplex frost free com dispenser de água",
+      "price": 28999,
+      "originalPrice": 32999,
+      "image": "https://images.unsplash.com/photo-1571175351974-0c7ba6b13d2b?w=800&q=80",
+      "category": "eletrodomésticos",
+      "subcategory": "refrigeração",
+      "brand": "Brastemp",
+      "inStock": true,
+      "discount": 12,
+      "rating": 4.5,
+      "reviews": 234,
+      "tags": ["frost free", "duplex", "dispenser", "econômica"],
+      "specifications": {
+        "Capacidade": "478L",
+        "Tipo": "Duplex",
+        "Consumo": "Selo A",
+        "Cor": "Inox"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Air Fryer Philips",
+      "description": "Fritadeira elétrica sem óleo com tecnologia Rapid Air",
+      "price": 1299,
+      "originalPrice": 1599,
+      "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80",
+      "category": "eletrodomésticos",
+      "subcategory": "pequenos",
+      "brand": "Philips",
+      "inStock": true,
+      "discount": 19,
+      "rating": 4.6,
+      "reviews": 892,
+      "tags": ["sem óleo", "saudável", "rápido", "fácil"],
+      "specifications": {
+        "Capacidade": "4.1L",
+        "Potência": "1500W",
+        "Tecnologia": "Rapid Air",
+        "Timer": "60 minutos"
+      }
+    },
+    {
+      "id": 13,
+      "name": "Microondas Panasonic",
+      "description": "Micro-ondas com grill e 31 receitas pré-programadas",
+      "price": 899,
+      "image": "https://images.unsplash.com/photo-1574269909862-7e1d70bb8fd2?w=800&q=80",
+      "category": "eletrodomésticos",
+      "subcategory": "pequenos",
+      "brand": "Panasonic",
+      "inStock": true,
+      "rating": 4.3,
+      "reviews": 456,
+      "tags": ["grill", "programado", "compacto"],
+      "specifications": {
+        "Capacidade": "32L",
+        "Potência": "900W",
+        "Receitas": "31 programas",
+        "Grill": "Sim"
+      }
+    },
+    {
+      "id": 14,
+      "name": "Tênis Vans Old Skool",
+      "description": "Tênis clássico da Vans com listras laterais icônicas",
+      "price": 699,
+      "originalPrice": 899,
+      "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=800&q=80",
+      "category": "moda",
+      "subcategory": "calçados",
+      "brand": "Vans",
+      "inStock": true,
+      "discount": 22,
+      "rating": 4.4,
+      "reviews": 678,
+      "tags": ["clássico", "skate", "casual", "icônico"],
+      "specifications": {
+        "Material": "Canvas + Camurça",
+        "Sola": "Waffle Rubber",
+        "Estilo": "Old Skool"
+      }
+    },
+    {
+      "id": 15,
+      "name": "Camiseta Polo Ralph Lauren",
+      "description": "Camiseta polo clássica com bordado do cavaleiro",
+      "price": 450,
+      "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800&q=80",
+      "category": "moda",
+      "subcategory": "roupas",
+      "brand": "Ralph Lauren",
+      "inStock": true,
+      "rating": 4.5,
+      "reviews": 334,
+      "tags": ["polo", "clássico", "elegante", "casual"],
+      "specifications": {
+        "Material": "100% Algodão Piqué",
+        "Corte": "Classic Fit",
+        "Bordado": "Cavaleiro pequeno"
+      }
+    },
+    {
+      "id": 16,
+      "name": "Relógio Casio G-Shock",
+      "description": "Relógio resistente com cronômetro e alarme múltiplo",
+      "price": 899,
+      "originalPrice": 1099,
+      "image": "https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?w=800&q=80",
+      "category": "acessórios",
+      "subcategory": "relógios",
+      "brand": "Casio",
+      "inStock": true,
+      "discount": 18,
+      "rating": 4.7,
+      "reviews": 567,
+      "tags": ["resistente", "esportivo", "multifunção"],
+      "specifications": {
+        "Resistência": "Choque e água 200m",
+        "Funções": "Cronômetro, alarme, timer",
+        "Bateria": "2 anos",
+        "Iluminação": "LED"
+      }
+    },
+    {
+      "id": 17,
+      "name": "Perfume Hugo Boss",
+      "description": "Fragrância masculina sofisticada e moderna",
+      "price": 350,
+      "originalPrice": 420,
+      "image": "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80",
+      "category": "beleza",
+      "subcategory": "perfumes",
+      "brand": "Hugo Boss",
+      "inStock": true,
+      "discount": 17,
+      "rating": 4.3,
+      "reviews": 289,
+      "tags": ["masculino", "sofisticado", "moderno", "duradouro"],
+      "specifications": {
+        "Volume": "100ml",
+        "Tipo": "Eau de Toilette",
+        "Notas": "Cítrico, amadeirado",
+        "Duração": "6-8 horas"
+      }
+    },
+    {
+      "id": 18,
+      "name": "Mochila Jansport SuperBreak",
+      "description": "Mochila clássica resistente com compartimento principal amplo",
+      "price": 299,
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&q=80",
+      "category": "acessórios",
+      "subcategory": "mochilas",
+      "brand": "Jansport",
+      "inStock": true,
+      "rating": 4.6,
+      "reviews": 445,
+      "tags": ["resistente", "clássica", "escola", "viagem"],
+      "specifications": {
+        "Capacidade": "25L",
+        "Material": "100% Poliéster",
+        "Garantia": "Vitalícia",
+        "Compartimentos": "1 principal + bolso frontal"
+      }
+    },
+    {
+      "id": 19,
+      "name": "Kindle Paperwhite",
+      "description": "E-reader à prova d'água com tela de 6.8 polegadas",
+      "price": 899,
+      "originalPrice": 999,
+      "image": "https://images.unsplash.com/photo-1592496431122-2349e0fbc666?w=800&q=80",
+      "category": "eletrônicos",
+      "subcategory": "e-readers",
+      "brand": "Amazon",
+      "inStock": true,
+      "discount": 10,
+      "rating": 4.8,
+      "reviews": 1234,
+      "tags": ["e-reader", "à prova d'água", "luz ajustável"],
+      "specifications": {
+        "Tela": "6.8 polegadas",
+        "Resolução": "300 PPI",
+        "Armazenamento": "8GB",
+        "Bateria": "Até 10 semanas"
+      }
+    },
+    {
+      "id": 20,
+      "name": "Cafeteira Nespresso",
+      "description": "Máquina de café espresso com sistema de cápsulas",
+      "price": 1899,
+      "originalPrice": 2299,
+      "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=800&q=80",
+      "category": "eletrodomésticos",
+      "subcategory": "cafeteiras",
+      "brand": "Nespresso",
+      "inStock": true,
+      "discount": 17,
+      "rating": 4.7,
+      "reviews": 678,
+      "tags": ["espresso", "cápsulas", "rápido", "cremoso"],
+      "specifications": {
+        "Pressão": "19 bar",
+        "Aquecimento": "25 segundos",
+        "Reservatório": "1.7L",
+        "Cápsulas": "Original Line"
+      }
+    }
+  ]
+}
