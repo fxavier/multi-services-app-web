@@ -35,7 +35,7 @@ import { CommonModule } from '@angular/common';
       <footer class="bg-[#1B263B] text-white py-8">
         <div class="container mx-auto px-4">
           <div class="text-center">
-            <p>&copy; 2024 Multi Services. Todos os direitos reservados.</p>
+            <p>&copy; 2025 Multi Services. Todos os direitos reservados.</p>
           </div>
         </div>
       </footer>
